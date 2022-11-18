@@ -1,4 +1,22 @@
-h1{color: blue;}
-p {color: rgb(228, 25, 25);}
-h2{color: hotpink;}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background:rgb(39, 46, 72);
+}
 
+h1{color: white}
+
+p {color: rgb(228, 25, 25);}
+
+h3 {color: white;
+}
+
+.info { 
+    color:grey;
+}
+.informacion {
+     color: grey;     
+}
+h5{color: rgb(50, 139, 248);}
