@@ -1,71 +1,96 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-     <meta harset="UTF-8">
-     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Mi Portafolio</title>
-     <link rel="stylesheet" href="style.css">
-    
-</head>
-<body>
+  <head>
+    <meta harset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-        <input type="email" name="Mail" id="Correo">
-        <input type="password" name="Password" id="Contraseña">
-    
-     <img src="https://dummyimage.com/1380x200/230ccf/75b1c9.png&text=PATRICIA+R.+CORDOBA" alt="portada" >
-     <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAA00lEQVRIS8WUgQ2CMBBFYQNHcAQYwY10AkeQEdzEFdxAR3ADvZ/QpMhv6e9BaHIpIeW9u/ZK22w82o35jVdwHhMcUol6BIDfRvDFZiqpFRwM+LLAHAaV1AgA/Vh0Fo9IggogmQxVgG25WpwsnpHkzuAwKYJ4z1FBkBzt+e095BgeWJD0OXhpBQyOb+meq2fggi9V4IbnBKvAU4LV4CnBl7Rc0YGyVmX34F9QDS+pwAVf6qLU5ZTeK78KCRwW7yJgXaRkP0m6pIsU+Oxcd9kiNePs+h/5ByUZvt/I/AAAAABJRU5ErkJggg==" alt="Editar">
-
-     <article>
-          <h1>PORTAFOLIO WEB</h1>
-     </article>
+  <body>
+        <!-- header -->
+    <header>
+        <img
+        src="https://dummyimage.com/1380x200/230ccf/75b1c9.png&text=MI+PORTAFOLIO"
+        alt="portada"
+        />
+      <nav class="login">
+        <h4>
+          Login
+          <input type="email" name="Mail" id="Correo" />
+          <input type="password" name="Password" id="Contraseña" />
+        </h4>
+      </nav>
       
-     <a href="https://www.facebook.com/pato.cba1/">Facebook</a>
-     <a href="https://hangouts.google.com/">Hangouts</a>
 
-     <hr>
-
-
-     <!-- esto estara en centro de la pagina debajo de imagen principal -->
-       <H3>Patricia Roxana Córdoba</H3>
-       <h5>  pcordoba39@gmail.com <br>Tel. 3515504325</h5>
-       <input type="button" value="Informacion">
-
-    
-     <hr>
-       <!-- un brebe resumen de mi -->
-     <div class="info">
-             <h4>Estudiamte del curso Argentina Programa</h4>
-             <h4>Cursando la segunda etapa del programa</h4>
-     </div>
-
-       
-     <div class="informacion">
-             <h3>ESTUDIOS CURSADOS</h3>
-             <h4>Analista Programador</h4>
-             <h4>Tecnico en Programacion</h4>
-     </div>
+      <img src="imagen/yo.png" alt="Patricia" />
+      <!-- logo del lapiz de ediciòn -->
+      <img
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAA00lEQVRIS8WUgQ2CMBBFYQNHcAQYwY10AkeQEdzEFdxAR3ADvZ/QpMhv6e9BaHIpIeW9u/ZK22w82o35jVdwHhMcUol6BIDfRvDFZiqpFRwM+LLAHAaV1AgA/Vh0Fo9IggogmQxVgG25WpwsnpHkzuAwKYJ4z1FBkBzt+e095BgeWJD0OXhpBQyOb+meq2fggi9V4IbnBKvAU4LV4CnBl7Rc0YGyVmX34F9QDS+pwAVf6qLU5ZTeK78KCRwW7yJgXaRkP0m6pIsU+Oxcd9kiNePs+h/5ByUZvt/I/AAAAABJRU5ErkJggg=="
+        alt="Editar"
+        />
         
-     <p>Aca se subira archivos <strong>html, css, js</strong> y mas</p>
-     <p>Creando Mi Portafolio Web estaremos agregando nuevas referncias y archivos a medida que avancemos</p><br>
+        <article><h1>PORTAFOLIO WEB</h1></article>
+              <ul>
+                <li><a href="https://www.facebook.com/pato.cba1/" target="_blank" >Facebook</a></li>
+                <li><a href="https://twitter.com/" target="_blank">Twitter</a></li>
+              </ul>
 
+    </header>
+          
+    <hr />
 
-     <ul><strong>Datos Personales</strong>    
-             <li>Patricia Roxana Cordoba</li>
-             <li>Córdoba, Capital</li>
-             <li>CP 5000</li>   
-     </ul>
+    <!-- esto estara en centro de la pagina debajo de imagen principal -->
+    <h3>Patricia Roxana Córdoba</h3>
+    <h5>pcordoba39@gmail.com <br />Tel. 3515504325</h5>
+    <input type="button" value="Informacion" />
 
-     <aside>
-        <h3>Experiencias Laborales</h3>
-     </aside>
+    <hr />
+    <!-- un brebe resumen de mi -->
+    <div class="info">
+      <h3>SOBRE MI</h3>
+      <p>Estudiamte del curso Argentina Programa <br>
+         Cursando la segunda etapa del programa <br>
+         Con muchas ganas de seguir aprendiendo <br>
+         <span> Y cumpliendo con algo que deje pendiente</span></p>
+    </div>
 
-     <input type="button" value="Clip Aqui">
+   
+    <div class="estudio">
+      <h3>ESTUDIOS CURSADOS</h4>
+      <h4> Analista Programador</h4>
+      <h4>Tècnico en Programaciòn</h4>
+      <h4>Secundario Completo</h4>
+    </div>
+    <!-- làpiz de ediciòn -->
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAA00lEQVRIS8WUgQ2CMBBFYQNHcAQYwY10AkeQEdzEFdxAR3ADvZ/QpMhv6e9BaHIpIeW9u/ZK22w82o35jVdwHhMcUol6BIDfRvDFZiqpFRwM+LLAHAaV1AgA/Vh0Fo9IggogmQxVgG25WpwsnpHkzuAwKYJ4z1FBkBzt+e095BgeWJD0OXhpBQyOb+meq2fggi9V4IbnBKvAU4LV4CnBl7Rc0YGyVmX34F9QDS+pwAVf6qLU5ZTeK78KCRwW7yJgXaRkP0m6pIsU+Oxcd9kiNePs+h/5ByUZvt/I/AAAAABJRU5ErkJggg=="
+    alt="Editar"
+     />
+    <br />
+  
+    <div class="proyecto">
+        <h3>PROYECTO</h3>
+        <b>Portafolio WEB</b>
+        <a href="https://github.com/PatoCba666/FrontEnd.git" target="_blank">Proyecto</a>
+    </div>
+    <!-- làpiz de ediciòn -->
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAA00lEQVRIS8WUgQ2CMBBFYQNHcAQYwY10AkeQEdzEFdxAR3ADvZ/QpMhv6e9BaHIpIeW9u/ZK22w82o35jVdwHhMcUol6BIDfRvDFZiqpFRwM+LLAHAaV1AgA/Vh0Fo9IggogmQxVgG25WpwsnpHkzuAwKYJ4z1FBkBzt+e095BgeWJD0OXhpBQyOb+meq2fggi9V4IbnBKvAU4LV4CnBl7Rc0YGyVmX34F9QDS+pwAVf6qLU5ZTeK78KCRwW7yJgXaRkP0m6pIsU+Oxcd9kiNePs+h/5ByUZvt/I/AAAAABJRU5ErkJggg=="
+    alt="Editar"
+    />
 
-
-     <footer>
-
-     </footer> 
-    
-</body>
+    <aside class="trabajo">
+      <h3>EXPERIENCIAS LABORALES</h3>
+      <P>Atenciòn al pùblico <br>
+         Asesora previcional <br>
+         Vendedora de Telefonia Mòvil <br>
+         Telefonista <br>
+         Asesora Telefonica del servicio Urgencias Mecànicas
+       </p>
+  
+   <!-- crear una tabla-formulario -->
+      <input type="button" value="Clip Aqui" />
+    </aside>
+    <footer></footer>
+  </body>
 </html>
