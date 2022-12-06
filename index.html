@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+  <!--  estos elementos de muestran por detras-->
   <head>
     <meta harset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -9,92 +10,83 @@
     <link rel="stylesheet" href="style.css" />
   </head>
 
-  <body>
-    <img src="img/argProg.png" alt="logos">
+      <header>
+        <img src="img/argProg.png" alt="logos">
+ <!-- login -->
 
-           <!-- header -->
-    <header>
+     <nav class="login">
+        <input type="email" placeholder="Username" name="mail" id=""/>
+        <input type="password" placeholder="Contraseña"  name="password" id="">         
+<!-- Aca se pondran las redes sociales o medios para comunicarse -->
+<!-- tendria que estar debajo de login -->
+        <a href="https://www.facebook.com/pato.cba1/" target="_blank" >Facebook</a>
+        <a href="https://twitter.com/" target="_blank">Twitter</a>
+  
+     </nav>            <!-- header -->
+  
+      <!-- aca hay que poner algunas fotos  para el baner-->
         <img
-        src="https://dummyimage.com/1380x200/230ccf/75b1c9.png&text=PATRICIA+R+CÒRDOBA"
+        src="https://dummyimage.com/1380x200/230ccf/75b1c9.png&text=BANER"
         alt="portada"
         />
-      <nav class="login">
-        <h4>
-          Login
-          <input type="email" name="Mail" id=""/>
-          
-          <input type="password" name="Password" id=""/>
-        </h4>
-      </nav>
-      <img src="img/yo.png" alt="Patricia" />
+        <img src="img/yo.png" alt="Patricia" />
       <!-- logo del lapiz de ediciòn -->
-      <img
+        <img
         src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAA00lEQVRIS8WUgQ2CMBBFYQNHcAQYwY10AkeQEdzEFdxAR3ADvZ/QpMhv6e9BaHIpIeW9u/ZK22w82o35jVdwHhMcUol6BIDfRvDFZiqpFRwM+LLAHAaV1AgA/Vh0Fo9IggogmQxVgG25WpwsnpHkzuAwKYJ4z1FBkBzt+e095BgeWJD0OXhpBQyOb+meq2fggi9V4IbnBKvAU4LV4CnBl7Rc0YGyVmX34F9QDS+pwAVf6qLU5ZTeK78KCRwW7yJgXaRkP0m6pIsU+Oxcd9kiNePs+h/5ByUZvt/I/AAAAABJRU5ErkJggg=="
         alt="Editar"
         />
-        
-        <article><h1>PORTAFOLIO WEB</h1></article>
-              <ul>
-                <li><a href="https://www.facebook.com/pato.cba1/" target="_blank" >Facebook</a></li>
-                <li><a href="https://twitter.com/" target="_blank">Twitter</a></li>
-              </ul>
 
-    </header>
-          
-    <hr />
-
-    <!-- esto estara en centro de la pagina debajo de imagen principal -->
-    <h3>Patricia Roxana Córdoba</h3>
-    <h5>pcordoba39@gmail.com <br />Tel. 3515504325</h5>
-    <input type="button" value="Informacion" />
-
-    <hr />
-    <!-- un brebe resumen de mi -->
-    <div class="info">
-      <h3>SOBRE MI</h3>
-      <p>Estudiamte del curso Argentina Programa <br>
+    </header><hr />    
+<!-- esto estara en centro de la pagina debajo deL BANER -->
+<body> 
+   <div class="info">
+        <h1>Patricia Roxana Córdoba</h1>
+        <a href="http://pcordoba39@gmail.com" target="_blank" rel="noopener noreferrer"></a>
+            
+    <!-- un br ebe resumen de mi -->
+        <p>Estudiamte del curso Argentina Programa <br>
          Cursando la segunda etapa del programa <br>
          Con muchas ganas de seguir aprendiendo <br>
          <span> Y cumpliendo con algo que deje pendiente</span></p>
+         <input type="button" value="Informacion" />
+         <hr>   
     </div>
+<br>
+<h3>EXPERIENCIA LABORAL </h3>
+<ul class="trabajo">
+   <li> Atenciòn al pùblico</li>
+   <li>Asesora Previsional</li>
+   <li>Vendedora de Telefonia Mòvil</li>
+   <li>Telefonista</li>
+   <li> Asesora Telefonica del servicio Urgencias Mecànicas</li>
+</ul>
+<br>
+<!-- lapiz de edicion -->
+   <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAA00lEQVRIS8WUgQ2CMBBFYQNHcAQYwY10AkeQEdzEFdxAR3ADvZ/QpMhv6e9BaHIpIeW9u/ZK22w82o35jVdwHhMcUol6BIDfRvDFZiqpFRwM+LLAHAaV1AgA/Vh0Fo9IggogmQxVgG25WpwsnpHkzuAwKYJ4z1FBkBzt+e095BgeWJD0OXhpBQyOb+meq2fggi9V4IbnBKvAU4LV4CnBl7Rc0YGyVmX34F9QDS+pwAVf6qLU5ZTeK78KCRwW7yJgXaRkP0m6pIsU+Oxcd9kiNePs+h/5ByUZvt/I/AAAAABJRU5ErkJggg=="
+   alt="Editar"
+    /> <br>
 
-   
+<!-- crear una tabla-formulario  con informacion mas detallada-->
+Para mas informaciòn <input type="button" value="Clip Aqui" />
     <div class="estudio">
-      <h3>ESTUDIOS CURSADOS</h4>
-        
-      <h4> Analista Programador</h4>
-      <h4>Tècnico en Programaciòn</h4>
-      <h4>Secundario Completo</h4>
+      <h3>EDUCACION</h3>
+      <ul>
+         <li>Conocimiento de Git y Github</li>
+        <li> Analista Programador</li>
+        <li>Tècnico en Programaciòn</li>
+        <li>Secundario Completo</li>
     </div>
-    <!-- làpiz de ediciòn -->
+ <!-- làpiz de ediciòn -->
     <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAA00lEQVRIS8WUgQ2CMBBFYQNHcAQYwY10AkeQEdzEFdxAR3ADvZ/QpMhv6e9BaHIpIeW9u/ZK22w82o35jVdwHhMcUol6BIDfRvDFZiqpFRwM+LLAHAaV1AgA/Vh0Fo9IggogmQxVgG25WpwsnpHkzuAwKYJ4z1FBkBzt+e095BgeWJD0OXhpBQyOb+meq2fggi9V4IbnBKvAU4LV4CnBl7Rc0YGyVmX34F9QDS+pwAVf6qLU5ZTeK78KCRwW7yJgXaRkP0m6pIsU+Oxcd9kiNePs+h/5ByUZvt/I/AAAAABJRU5ErkJggg=="
     alt="Editar"
      />
-    <br />
-  
-    <div class="proyecto">
-        <h3>PROYECTO</h3>
-        <b>Portafolio WEB</b>
-        <a href="https://github.com/PatoCba666/FrontEnd.git" target="_blank">Proyecto</a>
-    </div>
-    <!-- làpiz de ediciòn -->
-    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAA00lEQVRIS8WUgQ2CMBBFYQNHcAQYwY10AkeQEdzEFdxAR3ADvZ/QpMhv6e9BaHIpIeW9u/ZK22w82o35jVdwHhMcUol6BIDfRvDFZiqpFRwM+LLAHAaV1AgA/Vh0Fo9IggogmQxVgG25WpwsnpHkzuAwKYJ4z1FBkBzt+e095BgeWJD0OXhpBQyOb+meq2fggi9V4IbnBKvAU4LV4CnBl7Rc0YGyVmX34F9QDS+pwAVf6qLU5ZTeK78KCRwW7yJgXaRkP0m6pIsU+Oxcd9kiNePs+h/5ByUZvt/I/AAAAABJRU5ErkJggg=="
-    alt="Editar"
-    />
+ 
+<!-- que colocar aquì-->
+    <aside>
 
-    <aside class="trabajo">
-      <h3>EXPERIENCIAS LABORALES</h3>
-      <P>Atenciòn al pùblico <br>
-         Asesora Previcional <br>
-         Vendedora de Telefonia Mòvil <br>
-         Telefonista <br>
-         Asesora Telefonica del servicio Urgencias Mecànicas
-       </p>
-  
-   <!-- crear una tabla-formulario -->
-      Para mas informaciòn <input type="button" value="Clip Aqui" />
-      
     </aside>
-    <footer></footer>
+    <footer>
+      <a href="siguiente.html">Siguiente Pàgina</a>
+    </footer> 
   </body>
 </html>

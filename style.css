@@ -5,20 +5,13 @@ body{
     font-family: sans-serif;
     background:#FFBC2F;
 }
+h1{color: rgb(59, 16, 230)
+}
+h3 {color: white;}
 
-h1{color: rgb(59, 16, 230)}
-h5{color: blue;}
-p span {color: rgb(17, 35, 191);}
-h3 {color: white;
+p span {color: rgb(17, 35, 191);
 }
-
-.info { 
-    color:rgb(24, 3, 3);
+.estudio,
+.trabajo { 
+    color: darkblue;
 }
-.estudio {
-     color: rgb(52, 10, 10);     
-}
-.trabajo {
-    color: rgb(17, 17, 18);
-}
-
