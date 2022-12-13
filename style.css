@@ -5,13 +5,20 @@ body{
     font-family: sans-serif;
     background:#FFBC2F;
 }
+
 h1{color: rgb(59, 16, 230)
 }
+
 h3 {color: white;}
 
 p span {color: rgb(17, 35, 191);
 }
+
 .estudio,
 .trabajo { 
     color: darkblue;
 }
+ .mifoto {
+    border-radius: 50px;
+    width: 75px ;
+ }
